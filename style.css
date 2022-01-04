@@ -23,6 +23,10 @@ h1
 {
     display: flex;
 }
+p
+{
+    text-align: justify;
+}
 .button
 {
     background-repeat: no-repeat;

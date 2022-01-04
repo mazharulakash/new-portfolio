@@ -1,0 +1,37 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+}
+h2
+{
+    font-weight: 100;
+}
+.top
+{
+    background-image: url(images/study.jpg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+}
+.sec-top
+{
+    display: flex;
+}
+.half-width
+{
+    width: 50%;
+    padding: 5%;
+}
+.study-color
+{
+    color: orange;
+}
+.s-c-u-color
+{
+    color: orange;
+}
