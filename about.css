@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1
@@ -14,6 +15,7 @@ h2
 .top
 {
     background-image: url(images/study.jpg);
+    background-size: 1550px;
     background-repeat: no-repeat;
     
     display: flex;
@@ -27,10 +29,18 @@ h2
     display: flex;
     padding: 10px;
 }
+.all-in
+{
+    display: flex;
+    display: flex;
+    padding-bottom: 100px;
+    
+}
 .half-width
 {
     width: 50%;
     padding: 5%;
+    text-justify: auto;
 }
 .study-color
 {
@@ -39,4 +49,34 @@ h2
 .s-c-u-color
 {
     color: orange;
+}
+.project-item
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#hm-project
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, yellow);
+    border-image-slice: 1;
+}
+#cf-project
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(9, 202, 9), rgb(28, 146, 161));
+    border-image-slice: 1;
+}
+#tr-project
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(136, 8, 125), rgb(28, 146, 161));
+    border-image-slice: 1;
+}
+footer p
+{
+    text-align: center;
 }

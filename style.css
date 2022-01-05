@@ -48,3 +48,17 @@ p
     border-radius: 4px;
     
 }
+#career
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px rgb(90, 27, 27) ;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow) ;
+    border-image-slice: 1;
+    
+    
+}
